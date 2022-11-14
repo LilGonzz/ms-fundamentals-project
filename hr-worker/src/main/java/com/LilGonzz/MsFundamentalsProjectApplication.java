@@ -12,7 +12,7 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableMongoRepositories
-public class MsFundamentalsProjectApplication implements CommandLineRunner {
+public class MsFundamentalsProjectApplication{
 
 	@Autowired
 	WorkerRepositorty repositorty;
@@ -20,10 +20,4 @@ public class MsFundamentalsProjectApplication implements CommandLineRunner {
 		SpringApplication.run(MsFundamentalsProjectApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {}
-
-
-
-	}
 }
